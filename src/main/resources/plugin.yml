@@ -4,3 +4,8 @@ main: io.github.aspwil.dungeonimport.DungeonImport
 api-version: 1.18
 authors: [ Aspwil ]
 description: plugin made to handle import, generation, and data processing from donjon generated dungeons
+commands:
+  di:
+    description: dungeon import command
+    usage: /<command>
+    permission: DungeonImport.use
